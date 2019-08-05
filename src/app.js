@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
 		methods: {
 			saveNewItem: function(e) {
 				e.preventDefault();
-				this.items.push({
-					name: this.newItem,
-				});
+				this.items.push(
+					 this.newItem
+				);
 				this.newItem ="";
 			},
 

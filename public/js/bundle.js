@@ -150,7 +150,7 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.esm.js\");\n\n\ndocument.addEventListener('DOMContentLoaded', () => {\n\tnew vue__WEBPACK_IMPORTED_MODULE_0__[\"default\"]({\n\t\tel: \"#app\",\n\t\tdata: {\n\t\t\titems: [\n\t\t\t\t'Buy Shopping',\n\t\t\t\t 'Clean Bathroom',\n         'Car\\'s MOT'\n\t\t\t],\n\t\t\tnewItem: \"\"\n\t\t},\n\t\tmethods: {\n\t\t\tsaveNewItem: function(e) {\n\t\t\t\te.preventDefault();\n\t\t\t\tthis.items.push({\n\t\t\t\t\tname: this.newItem,\n\t\t\t\t});\n\t\t\t\tthis.newItem =\"\";\n\t\t\t},\n\n\n\t\t}\n\t});\n});\n\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.esm.js\");\n\n\ndocument.addEventListener('DOMContentLoaded', () => {\n\tnew vue__WEBPACK_IMPORTED_MODULE_0__[\"default\"]({\n\t\tel: \"#app\",\n\t\tdata: {\n\t\t\titems: [\n\t\t\t\t'Buy Shopping',\n\t\t\t\t 'Clean Bathroom',\n         'Car\\'s MOT'\n\t\t\t],\n\t\t\tnewItem: \"\"\n\t\t},\n\t\tmethods: {\n\t\t\tsaveNewItem: function(e) {\n\t\t\t\te.preventDefault();\n\t\t\t\tthis.items.push(\n\t\t\t\t\t this.newItem\n\t\t\t\t);\n\t\t\t\tthis.newItem =\"\";\n\t\t\t},\n\n\n\t\t}\n\t});\n});\n\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ })
 
